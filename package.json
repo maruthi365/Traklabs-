@@ -1,0 +1,26 @@
+{
+  "name": "typescript-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc --project ./ && node index.js && node initail.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.12.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  }
+}
